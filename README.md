@@ -10,6 +10,7 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 
 - [Managed memory APIs and services](#managed-memory-apis-and-services)
 - [Open-source frameworks and engines](#open-source-frameworks-and-engines)
+- [Agent memory workflows and templates](#agent-memory-workflows-and-templates)
 - [MCP memory servers](#mcp-memory-servers)
 - [Benchmarks and evaluation](#benchmarks-and-evaluation)
 - [Papers](#papers)
@@ -48,6 +49,11 @@ Contributions welcome. Please keep entries factual and free of marketing languag
 - [Off the Wall](https://github.com/toranalytics/off-the-wall) - MIT hooks plugin for Claude Code and Codex that stores the user's past corrections locally and quotes them back to the agent before it answers, with a report of the most-corrected topics.
 - [ReasonGraph](https://github.com/bgokden/reasongraph) - MIT graph-memory library that extracts entities and cause-effect relations with small fine-tuned models, answers why-questions by walking causal chains with citations, supports time-travel queries and contradiction handling, with a hosted service (ReasonGraph Cloud).
 - [self-learning-agent-setup](https://github.com/ssap-pa/self-learning-agent-setup) - MIT Postgres schema and TypeScript loop that store each human approve, edit, and reject of an agent draft with pgvector embeddings and retrieve feedback from similar past tasks before the next draft.
+## Agent memory workflows and templates
+
+Reusable agent-memory workflows and templates for knowledge practices agents can adopt directly, not general prompt packs.
+
+- [Strata Sample](https://github.com/Zerokool1986/Strata-sample) - Custom license; commercial use and free redistribution with credit allowed, no resale. Knowledge system for coding agents that stores typed Markdown entries with status and provenance in a Git repo, keeps superseded entries readable instead of deleting them, and includes templates, a worked example, and a five-question self-test.
 
 ## MCP memory servers
 
